@@ -67,7 +67,7 @@ Existem dois tipos de endpoints, o Gateway Endpoint (para serviços como S3 e Dy
 
 Projetar VPCs em qualquer player de nuvem para suportar ambientes de containers em larga escala envolve considerações importantes para garantir que a infraestrutura seja segura, escalável e eficiente. Ao utilizar serviços como Amazon Elastic Container Service (ECS) ou Amazon Elastic Kubernetes Service (EKS), é muito importante planejar cuidadosamente a arquitetura de rede para otimizar o desempenho, operação e segurança na gestão dos containers efemetros que podem variar constantemente sua quantidade e finalidade. Aqui estão alguns pontos de atenção essenciais:
 
-![VPC](.\NetworkDesign.jpg)
+![VPC](.\NetworkDesign.png)
 
 In this section, we'll further analyze how to better manage your time and schedule so you can more effectively both absorb and utilize your acquired knowledge. Remember, this journey is yours to shape, and while it is always nice to explore at your own pace it can be beneficial to add a structure to it so you can more consistently delve into the topics that captivate you, and take full advantage of the opportunities for discussion and collaboration.
 Projetar CIDR's de acordo com as necessidades atuais e futuras do ambiente
@@ -88,6 +88,6 @@ Dividir sua carga de trabalho entre várias grupos de subnets que são criados e
 
 Operar em várias zonas de disponibilidade requer estratégias de balanceamento de carga entre todos os nodes e replicas de nossos recursos distribuídos, e segregar recursos de rede também pode ser uma boa prática para aumentar ainda mais nossos escopos de resiliência em caso de falha de alguma dessas zonas de disponibilidade.
 
-![Arquitetura](.\Architecture.jpg)
+![Arquitetura](./Architecture.png)
 
 Separar os NAT Gateways em múltiplas zonas de disponibilidade (AZs) é uma estratégia avançada para garantir alta disponibilidade e resiliência do tráfego de saída em uma arquitetura de rede na AWS. Essa abordagem é particularmente importante para ambientes de produção críticos, onde a continuidade dos negócios depende da disponibilidade constante dos recursos de rede. Ao implementar NAT Gateways em várias AZs, você pode assegurar que os recursos nas subnets privadas mantenham o acesso à Internet, mesmo se uma AZ enfrentar interrupções.
