@@ -1,4 +1,4 @@
-rk# **Regiões e Zonas de Disponibilidade**
+# **Regiões e Zonas de Disponibilidade**
 
 ## Regiões
 
