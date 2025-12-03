@@ -47,7 +47,6 @@ Seu acesso é restrito a partir de subnets específicas, geralmente subnets de a
 
 ## Gateways e Conectividade
 
-tralalala
 
 ### Internet Gateway (IGW)
 
@@ -92,4 +91,5 @@ Operar em várias zonas de disponibilidade requer estratégias de balanceamento 
 ![](images/Architecture.jpg)
 
 Separar os NAT Gateways em múltiplas zonas de disponibilidade (AZs) é uma estratégia avançada para garantir alta disponibilidade e resiliência do tráfego de saída em uma arquitetura de rede na AWS. Essa abordagem é particularmente importante para ambientes de produção críticos, onde a continuidade dos negócios depende da disponibilidade constante dos recursos de rede. Ao implementar NAT Gateways em várias AZs, você pode assegurar que os recursos nas subnets privadas mantenham o acesso à Internet, mesmo se uma AZ enfrentar interrupções.
+
 
