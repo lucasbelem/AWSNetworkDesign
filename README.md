@@ -69,7 +69,7 @@ Projetar VPCs em qualquer player de nuvem para suportar ambientes de containers 
 
 ![](images/NetworkDesign.jpg)
 
-In this section, we'll further analyze how to better manage your time and schedule so you can more effectively both absorb and utilize your acquired knowledge. Remember, this journey is yours to shape, and while it is always nice to explore at your own pace it can be beneficial to add a structure to it so you can more consistently delve into the topics that captivate you, and take full advantage of the opportunities for discussion and collaboration.
+
 Projetar CIDR's de acordo com as necessidades atuais e futuras do ambiente
 
 Um dos principais desafios ao projetar VPCs para containers em larga escala é garantir uma gestão eficaz do espaço de endereçamento IP. Containers podem ser efêmeros, com ciclos de vida curtos e frequentemente reciclados. Isso significa que o planejamento de sub-redes e a alocação de IPs devem ser feitos de maneira que suporte um grande número de containers sem esgotar o espaço disponível. Utilizar sub-redes suficientemente grandes e considerar o uso de IPs privados em combinação com soluções de Service Discovery são estratégias que ajudam a gerenciar a comunicação entre serviços de forma eficiente.
@@ -92,3 +92,4 @@ Operar em várias zonas de disponibilidade requer estratégias de balanceamento 
 ![](images/Architecture.jpg)
 
 Separar os NAT Gateways em múltiplas zonas de disponibilidade (AZs) é uma estratégia avançada para garantir alta disponibilidade e resiliência do tráfego de saída em uma arquitetura de rede na AWS. Essa abordagem é particularmente importante para ambientes de produção críticos, onde a continuidade dos negócios depende da disponibilidade constante dos recursos de rede. Ao implementar NAT Gateways em várias AZs, você pode assegurar que os recursos nas subnets privadas mantenham o acesso à Internet, mesmo se uma AZ enfrentar interrupções.
+
